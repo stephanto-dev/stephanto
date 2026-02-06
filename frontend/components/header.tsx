@@ -26,7 +26,7 @@ export default function Header() {
             Blog
           </Link>
           <Link
-            href="/contact"
+            href="/contato"
             className="hover:text-primary transition-all duration-300 hover:scale-105"
           >
             Contato
