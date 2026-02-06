@@ -6,7 +6,7 @@ export default function Contato() {
     <>
       <Header />
       <section className="flex flex-col justify-between gap-16 px-6 sm:px-10 lg:px-24 py-8 sm:py-10 lg:py-10">
-        <div className="flex flex-col gap-6">
+        <div className="flex flex-col gap-6 animate-fade-in-up">
           <h1 className="text-6xl font-bold">Entre em contato</h1>
           <p className="text-xl text-slate-400">
             Quer conversar sobre um projeto ou apenas bater um papo? Entre em
@@ -15,7 +15,7 @@ export default function Contato() {
         </div>
 
         <div className="flex justify-center items-stretch gap-8">
-          <div className="flex flex-col flex-1 bg-[#1a1a1a] p-12 rounded-xl border border-[#2a2a2a] w-3/5 min-h-0">
+          <div className="flex flex-col flex-1 bg-[#1a1a1a] p-12 rounded-xl border border-[#2a2a2a] w-3/5 min-h-0 animate-fade-in-up-delay-100">
             <h1 className="text-3xl font-bold">Envie uma mensagem</h1>
             <form className="flex flex-1 flex-col gap-6 min-h-0">
               <div className="flex flex-row gap-4 items-center">
@@ -81,7 +81,7 @@ export default function Contato() {
           </div>
 
           <div className="flex flex-col items-center gap-12">
-            <div className="flex flex-col gap-6 bg-[#1a1a1a] p-12 rounded-xl border border-[#2a2a2a] w-full">
+            <div className="flex flex-col gap-6 bg-[#1a1a1a] p-12 rounded-xl border border-[#2a2a2a] w-full animate-fade-in-up-delay-200">
               <h1 className="text-3xl font-bold">Informações de contato</h1>
               <InfoWithIcon
                 icon="mail"
@@ -94,7 +94,7 @@ export default function Contato() {
                 content="São Paulo, SP, Brasil"
               />
             </div>
-            <div className="flex flex-col gap-6 bg-[#1a1a1a] p-12 rounded-xl border border-[#2a2a2a] w-full">
+            <div className="flex flex-col gap-6 bg-[#1a1a1a] p-12 rounded-xl border border-[#2a2a2a] w-full animate-fade-in-up-delay-300">
               <h1 className="text-3xl font-bold">Redes sociais</h1>
               <div className="flex flex-row gap-4">
                 <InfoWithIcon

@@ -5,7 +5,7 @@ import Button from "./button";
 export default function Hero() {
   return (
     <section className="flex flex-col-reverse lg:flex-row justify-between items-start lg:items-center gap-8 lg:gap-12 px-6 sm:px-10 lg:px-24 py-8 sm:py-10 lg:py-10">
-      <div className="flex flex-col gap-5 sm:gap-6 w-full lg:w-1/2">
+      <div className="flex flex-col gap-5 sm:gap-6 w-full lg:w-1/2 animate-fade-in-left">
         <p className="text-sm sm:text-base lg:text-lg text-slate-500 tracking-wide">
           FOUNDER & FULL-STACK SOFTWARE ENGINEER
         </p>
@@ -29,11 +29,15 @@ export default function Hero() {
           <HeroBadge icon="🤖" text="Desenvolvimento de IA" />
           <HeroBadge icon="🚀" text="Empreendedorismo" />
         </div>
-        <Button variant="primary" href="/contato" className="w-full sm:w-fit justify-center">
+        <Button
+          variant="primary"
+          href="/contato"
+          className="w-full sm:w-fit justify-center"
+        >
           Entre em contato
         </Button>
       </div>
-      <div className="w-full lg:w-auto flex justify-center lg:justify-end">
+      <div className="w-full lg:w-auto flex justify-center lg:justify-end animate-fade-in-right-delay-100">
         <Image
           src="/Vinicius_Stephanto.jpg"
           alt="Stephanto"
