@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <header className="fixed z-50 flex flex-col sm:flex-row justify-between items-center gap-4 sm:gap-8 border-b border-[#2a2a2a] w-full px-6 sm:px-10 lg:px-24 py-4 sm:py-6 bg-background/90 backdrop-blur">
+    <header className="sticky top-0 z-50 flex flex-col sm:flex-row justify-between items-center gap-3 sm:gap-6 border-b border-[#2a2a2a] w-full px-6 sm:px-10 lg:px-24 py-3 sm:py-4 lg:py-5 bg-background/90 backdrop-blur">
       <Image
         src="/base_icon.png"
         alt="Stephanto"
