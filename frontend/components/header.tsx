@@ -20,7 +20,7 @@ export default function Header() {
             Início
           </Link>
           <Link
-            href="/blog"
+            href="https://dev.to/stephanto"
             className="hover:text-primary transition-all duration-300 hover:scale-105"
           >
             Blog
