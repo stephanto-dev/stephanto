@@ -11,6 +11,9 @@ export const metadata: Metadata = {
   title: "Stephanto | Founder & Developer",
   description:
     "Conheça o trabalho de Vinícius Stephanto, fundador da Steffer e especialista em desenvolvimento Fullstack",
+  icons: {
+    icon: "/web-app-manifest-192x192.png",
+  },
   keywords: [
     "Vinícius Stephanto",
     "Steffer",
