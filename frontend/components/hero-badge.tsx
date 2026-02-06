@@ -1,0 +1,13 @@
+interface HeroBadgeProps {
+  icon: string;
+  text: string;
+}
+
+export default function HeroBadge({ icon, text }: HeroBadgeProps) {
+  return (
+    <div className="flex items-center gap-5 px-4 py-5 bg-[#1a1a1a] border border-[#2a2a2a] rounded-xl transition-all duration-300 hover:scale-105 hover:border-[#3a3a3a]">
+      <p className="text-2xl text-slate-400">{icon}</p>
+      <p className="text-lg text-slate-400">{text}</p>
+    </div>
+  );
+}

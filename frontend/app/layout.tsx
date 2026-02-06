@@ -9,7 +9,19 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "Stephanto | Founder & Developer",
-  description: "Portfólio de Vinícius Stephanto",
+  description:
+    "Conheça o trabalho de Vinícius Stephanto, fundador da Steffer e especialista em desenvolvimento Fullstack",
+  keywords: [
+    "Vinícius Stephanto",
+    "Steffer",
+    "Fullstack",
+    "Developer",
+    "Portfolio",
+    "Stephanto",
+    "Stefanto",
+    "Stelanto",
+    "Vinicius Stephanto",
+  ],
 };
 
 export default function RootLayout({
