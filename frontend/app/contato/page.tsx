@@ -48,6 +48,7 @@ export default function Contato() {
                   icon="linkedin"
                   title="LinkedIn"
                   content="Vinicius Stephanto"
+                  href="https://www.linkedin.com/in/vinicius-stephanto/"
                 />
               </div>
               <div className="flex flex-row gap-4">
@@ -55,13 +56,15 @@ export default function Contato() {
                   icon="github"
                   title="GitHub"
                   content="stephanto-dev"
+                  href="https://github.com/stephanto-dev"
                 />
               </div>
               <div className="flex flex-row gap-4">
                 <InfoWithIcon
-                  icon="twitter"
-                  title="Twitter"
+                  icon="x"
+                  title="X"
                   content="@StephantoDev"
+                  href="https://x.com/StephantoDev"
                 />
               </div>
             </div>
